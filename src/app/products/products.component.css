@@ -1,0 +1,19 @@
+.card:hover{
+   
+    transition: 0.5s;
+    transform:scale(1.01);
+    /* box-shadow: 2px 2px 2px; */
+   
+
+}
+.card{
+ border-radius: 20px;
+ text-align: center;
+}
+.btn{
+    margin-right: 10px;
+}   
+body{
+    background-color: rgb(224, 242, 243);
+   
+}

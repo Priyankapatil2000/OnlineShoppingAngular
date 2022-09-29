@@ -1,0 +1,481 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "pName": "Cic-Hearing-Aids  ",
+      "pstyle": "BTE",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pFittingRange": " 60-120 dB",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 1890,
+      "supplier_id": 1001,
+      "maufacturer_id": 1,
+      "img_path": "assets/images/cic-hearing-aids.jpg"
+    },
+    {
+      "id": 102,
+      "pName": "Mini-Hearing-aid ",
+      "pstyle": "RIC Digital",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 4492,
+      "supplier_id": 1002,
+      "maufacturer_id": 4,
+      "img_path": "assets/images/mini-hearing-aid.jpg"
+    },
+    {
+      "id": 103,
+      "pName": "Rexton Bte Accord 12 2c M Hearing Aid",
+      "pstyle": "RIC",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 39990,
+      "supplier_id": 1002,
+      "maufacturer_id": 1,
+      "img_path": "assets/images/Rexton Bte Accord 12 2c M Hearing Aid.jpg"
+    },
+    {
+      "id": 104,
+      "pName": "Resound AUZI Pocket Hearing Aid",
+      "pstyle": "BTE",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pFittingRange": "Moderate to Profound Loss",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 5990,
+      "supplier_id": 1003,
+      "maufacturer_id": 1,
+      "img_path": "assets/images/resound-linx-quattro-7-li-ion-rechargeable-linx-quattro-761-drwc-rie-channel-14.jpg"
+    },
+    {
+      "id": 105,
+      "pName": "Starkey IIC Hearing Aid",
+      "pstyle": "IIC",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 30000,
+      "supplier_id": 1003,
+      "maufacturer_id": 1,
+      "img_path": "assets/images/Starkey Aries Pro BTE Hearing Aid.jpg"
+    },
+    {
+      "id": 106,
+      "pName": "Starkey Muse iQ BTE",
+      "pStyle": "BTE",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 40000,
+      "supplier_id": 1004,
+      "maufacturer_id": 2,
+      "img_path": "assets/images/Starkey Muse iQ BTE, Behind The Ear.jpg"
+    },
+    {
+      "id": 107,
+      "pName": "ReSound Linx Quattro ",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pStyle": "BTE",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 175000,
+      "supplier_id": 1002,
+      "maufacturer_id": 3,
+      "img_path": "assets/images/resound-linx-quattro-7-li-ion-rechargeable-linx-quattro-761-drwc-rie-channel-14.jpg"
+    },
+    {
+      "id": 108,
+      "pName": "Phonak RIC Audeo M30-312",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pStyle": "RIC",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 37400,
+      "supplier_id": 1005,
+      "maufacturer_id": 3,
+      "img_path": "assets/images/Phonak RIC Audeo M30-312 Hearing Aid.jpg"
+    },
+    {
+      "id": 109,
+      "pName": "Starkey Aries Pro BTE Hearing Aid",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pStyle": "BTE",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 15210,
+      "supplier_id": 1002,
+      "maufacturer_id": 2,
+      "img_path": "assets/images/Starkey Aries Pro BTE Hearing Aid.jpg"
+    },
+    {
+      "id": 110,
+      "pName": "CIC Hearing Aid Silk Primax Heraing Aid",
+      "pBattery": "13 Size Zinc-Air battery",
+      "pStyle": "BTE",
+      "pFittingRange": "0-90/110",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 39990,
+      "supplier_id": 1002,
+      "maufacturer_id": 3,
+      "img_path": "assets/images/ready-to-wear-hearing-aid-cic-signisilk-2px-click-cic.png"
+    },
+    {
+      "id": 111,
+      "pName": "BTE Phonak Sky M30-M312-SP13 Hearing Aid",
+      "pStyle": "BTE",
+      "pBattery": "312",
+      "pFittingRange": "80/100",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 42000,
+      "supplier_id": 0,
+      "manufacturer_id": 0,
+      "img_path": "assets/images/phonak-sky-m30-m312-sp13.jpg"
+    },
+    {
+      "id": 112,
+      "pName": "Group Hearing Aid System, In The Ear",
+      "pStyle": "BTE",
+      "pBattery": "312",
+      "pFittingRange": "80/100",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 19000,
+      "supplier_id": 0,
+      "manufacturer_id": 0,
+      "img_path": "assets/images/Group Hearing Aid System, In The Ear.jpg"
+    },
+    {
+      "id": 113,
+      "pName": "8-channels-signia-lotus-run-hearing-aid",
+      "pStyle": "BTE",
+      "pBattery": "312",
+      "pFittingRange": "80/100",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 10000,
+      "supplier_id": 0,
+      "manufacturer_id": 0,
+      "img_path": "assets/images/8-channels-signia-lotus-run-hearing-aid.jpg"
+    },
+    {
+      "id": 114,
+      "pName": "Audio Service Ida 12 G2(RC,BT ,VC) Hearing Aids",
+      "pStyle": "BTE",
+      "pBattery": "312",
+      "pFittingRange": "80/100",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 10000,
+      "supplier_id": 0,
+      "manufacturer_id": 0,
+      "img_path": "assets/images/Audio Service Ida 12 G2(RC,BT ,VC) Hearing Aids.jpg"
+    },
+    {
+      "id": 115,
+      "pName": "Rexton Bte Accord 12 2c M Hearing Aid",
+      "pStyle": "BTE",
+      "pBattery": "312",
+      "pFittingRange": "80/100",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 10000,
+      "supplier_id": 0,
+      "manufacturer_id": 0,
+      "img_path": "assets/images/Rexton Bte Accord 12 2c M Hearing Aid.jpg"
+    },
+    {
+      "id": 116,
+      "pName": "793 U HG Hearing Aids",
+      "pStyle": "BTE",
+      "pBattery": "312",
+      "pFittingRange": "80/100",
+      "pRemark": "RIC available in M,p and Hp receivers",
+      "price": 10000,
+      "supplier_id": 0,
+      "manufacturer_id": 0,
+      "img_path": "assets/images/793 U HG Hearing Aids.jpg"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1001,
+      "sName": "Sound Life Inc",
+      "sLocation": "Gujarat",
+      "sContact": 9879151586,
+      "sEmail": "hear@soundlife.in"
+    },
+    {
+      "id": 1002,
+      "sName": "Ear-Kart",
+      "sLocation": "New Delhi",
+      "sContact": 9289097578,
+      "sEmail": "info@earkart.in"
+    },
+    {
+      "id": 1003,
+      "sName": "Nayaks Hearing Care Clinic Private Limited ",
+      "sLocation": "Bengaluru",
+      "sContact": 9845058544,
+      "sEmail": "msjnayaka@yahoo.com"
+    },
+    {
+      "id": 1004,
+      "sName": "Aditi Hearing Solution",
+      "sLocation": "Bangalore",
+      "sContact": 7026594499,
+      "sEmail": "aditihearingsolutions@gmail.com"
+    },
+    {
+      "id": 1005,
+      "sName": "Hearing Wellness Clinic",
+      "sLocation": "Bengaluru",
+      "sContact": 9980510040,
+      "sEmail": "info@hearingwellness.in"
+    },
+    {
+      "id": 1006,
+      "sName": "Lets-hear-It",
+      "sLocation": "Bengaluru",
+      "sContact": 7022236768,
+      "sEmail": "letshearitclinic@gmail.com"
+    },
+    {
+      "id": 1007,
+      "sName": "Prajwal Surgicals & Scientifics ",
+      "sLocation": "Bengaluru",
+      "sContact": 8048616723,
+      "sEmail": "support@prajwalsurgicals.com"
+    },
+    {
+      "id": 1008,
+      "sName": "Dayal Traders",
+      "sLocation": "Ludhiyana, Punjab",
+      "sContact": 8048616723,
+      "sEmail": "support@dayaltraders.com"
+    },
+    {
+      "id": 1009,
+      "sName": "City Hearing Aids",
+      "sLocation": "Bengaluru",
+      "sContact": 8048616723,
+      "sEmail": "support@cityhearingaids.com"
+    }
+  ],
+  "manufacturers": [
+    {
+      "id": 1,
+      "mName": "Jet India",
+      "mPhone": 8048968590,
+      "mPointOfContact": "Ram Choudhary",
+      "mEmail": "djane@kgkjetindia.com",
+      "mLocation": "bangalore"
+    },
+    {
+      "id": 2,
+      "mName": "Starkey Hearing Aid, RIC",
+      "mPhone": 8046077989,
+      "mPointOfContact": "Rahul Kumar",
+      "mEmail": "starkey@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 3,
+      "mName": "3 Pin Receiver Hearing Aids, In The Ear",
+      "mPhone": 8046079064,
+      "mPointOfContact": "Vanik Khandelwal",
+      "mEmail": "hearingaids@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 4,
+      "mName": "Starkey IIC Hearing Aid, In The Canal",
+      "mPhone": 8048975193,
+      "mPointOfContact": "Rajesh Bansal",
+      "mEmail": "starkeyiic@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 5,
+      "mName": "Plastic Pocket Hearing Aid",
+      "mPhone": 8048604726,
+      "mPointOfContact": "Shyam ThakkarShyam Thakkar",
+      "mEmail": "plasticpocket@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 6,
+      "mName": "RIC Hearing Machine",
+      "mPhone": 8700023654,
+      "mPointOfContact": "Hirpara Maulik",
+      "mEmail": "richearingmachine@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 7,
+      "mName": "Behind the Ear Hearing Aids",
+      "mPhone": 8046035981,
+      "mPointOfContact": "Navin Batra",
+      "mEmail": "afaenquiry@gmail.com.",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 8,
+      "mName": "Paras Healthcare Hearing Aid, In The Ear",
+      "mPhone": 8047306719,
+      "mPointOfContact": "Paras",
+      "mEmail": "parashealthcare@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 9,
+      "mName": "V-185 MCP Axon Hearing Aid",
+      "mPhone": 8048988796,
+      "mPointOfContact": "Anubhav Agarwal",
+      "mEmail": "axonmcp@gmail.com",
+      "mLocation": "banglore"
+    },
+    {
+      "id": 10,
+      "mName": "1-A Arphi Hearing Aid System, In The Ear",
+      "mPhone": 8048955468,
+      "mPointOfContact": "Rajesh Chavan",
+      "mEmail": "info@arphi.com",
+      "mLocation": "banglore"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fName": "Admin",
+      "uEmail": "admin@gmail.com",
+      "pswd": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "fName": "suprith",
+      "lName": "",
+      "country": "",
+      "state": "",
+      "city": "",
+      "mob_no": 0,
+      "profession": "",
+      "address1": "",
+      "address2": "",
+      "dob": 0,
+      "uEmail": "suprithks22@gmail.com",
+      "pswd": "123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "fName": "vivek kumar",
+      "lName": "",
+      "country": "",
+      "state": "",
+      "city": "",
+      "mob_no": 0,
+      "profession": "",
+      "address1": "",
+      "address2": "",
+      "dob": 0,
+      "uEmail": "vivekpatel0212@gmail.com",
+      "pswd": "vivek123",
+      "role": "user"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "userid": 1,
+      "fName": "Admin",
+      "uEmail": "admin@legalcliq.com",
+      "products": [],
+      "amount": 0
+    },
+    {
+      "id": 2,
+      "userid": 2,
+      "fName": "suprith",
+      "uEmail": "suprithks22@gmail.com",
+      "products": [
+        {
+          "id": 11,
+          "pName": "Enya 277 DW Open/Classic",
+          "pStyle": "BTE",
+          "pBattery": "I3",
+          "price": 24995,
+          "supplier_id": 1002,
+          "img_path": "assets/images/cic-hearing-aids.jpg"
+        },
+        {
+          "id": 12,
+          "pName": "Enya 288 DWP/HP",
+          "pStyle": "PBTE",
+          "pBattery": "I3",
+          "price": 24995,
+          "supplier_id": 1003,
+          "img_path": "/src/assets/images/Enya288.jpg"
+        },
+        {
+          "id": 101,
+          "pName": "Cic-Hearing-Aids  ",
+          "pstyle": "BTE",
+          "pBattery": "13 Size Zinc-Air battery",
+          "pFittingRange": " 60-120 dB",
+          "pRemark": "RIC available in M,p and Hp receivers",
+          "price": 1890,
+          "supplier_id": 1001,
+          "maufacturer_id": 1,
+          "img_path": "assets/images/cic-hearing-aids.jpg"
+        },
+        {
+          "id": 106,
+          "pName": "Starkey Muse iQ BTE",
+          "pStyle": "BTE",
+          "pBattery": "13 Size Zinc-Air battery",
+          "pFittingRange": "0-90/110",
+          "pRemark": "RIC available in M,p and Hp receivers",
+          "price": 40000,
+          "supplier_id": 1004,
+          "maufacturer_id": 2,
+          "img_path": "assets/images/Starkey Muse iQ BTE, Behind The Ear.jpg"
+        },
+        {
+          "id": 111,
+          "pName": "BTE Phonak Sky M30-M312-SP13 Hearing Aid",
+          "pStyle": "BTE",
+          "pBattery": "312",
+          "pFittingRange": "80/100",
+          "pRemark": "RIC available in M,p and Hp receivers",
+          "price": 42000,
+          "supplier_id": 0,
+          "manufacturer_id": 0,
+          "img_path": "assets/images/phonak-sky-m30-m312-sp13.jpg"
+        },
+        {
+          "id": 104,
+          "pName": "Resound AUZI Pocket Hearing Aid",
+          "pstyle": "BTE",
+          "pBattery": "13 Size Zinc-Air battery",
+          "pFittingRange": "Moderate to Profound Loss",
+          "pRemark": "RIC available in M,p and Hp receivers",
+          "price": 5990,
+          "supplier_id": 1003,
+          "maufacturer_id": 1,
+          "img_path": "assets/images/resound-linx-quattro-7-li-ion-rechargeable-linx-quattro-761-drwc-rie-channel-14.jpg"
+        },
+        {
+          "id": 108,
+          "pName": "Phonak RIC Audeo M30-312",
+          "pBattery": "13 Size Zinc-Air battery",
+          "pStyle": "RIC",
+          "pFittingRange": "0-90/110",
+          "pRemark": "RIC available in M,p and Hp receivers",
+          "price": 37400,
+          "supplier_id": 1005,
+          "maufacturer_id": 3,
+          "img_path": "assets/images/Phonak RIC Audeo M30-312 Hearing Aid.jpg"
+        }
+      ],
+      "amount": 177270
+    }
+  ]
+}

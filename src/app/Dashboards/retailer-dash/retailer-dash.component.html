@@ -1,0 +1,61 @@
+
+<mat-tab-group>
+    <mat-tab label="Home">
+        <h1>Hi {{username}}</h1>
+        <p>Welcome to the dashboard. Here you can manage your products</p>
+    </mat-tab>
+    <mat-tab label="Dashboard">
+        <div>
+            <h1>Retailer's Profile</h1>
+            <br>
+            <button type="submit" class="btn btn-success">Add Product</button>  
+            <br>
+            <br>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Product Id</th>
+                  <th scope="col">Product Name</th>
+                  <th scope="col">Price /-</th>
+                  <th scope="col">Quantity(Stock)</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of products"> <!-- ngFor for products associated with retailer id -->
+                  <td scope="row">{{product.prodId}}</td>
+                  <td> {{product.prodName}} </td>
+                  <td> {{product.prodprice}} </td>
+                  <td> {{product.prodQuantity}} </td>
+                  <td>
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-primary">Update Quantity</button>
+                  </td>
+                </tr>
+                <!--
+                <tr>
+                  <td scope="row">2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><button type="submit" class="btn btn-danger">Delete</button></td>
+                </tr>
+                <tr>
+                  <td scope="row">3</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><button type="submit" class="btn btn-danger">Delete</button></td>
+                </tr>
+                <tr>
+                  <td scope="row">4</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><button type="submit" class="btn btn-danger">Delete</button></td>
+                </tr>-->
+              </tbody>
+            </table>
+          </div>
+    </mat-tab>
+  </mat-tab-group>

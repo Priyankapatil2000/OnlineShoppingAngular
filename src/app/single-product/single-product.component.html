@@ -1,0 +1,40 @@
+
+<!-- 
+  <body>
+  <div class="card"style=" max-height:400px;
+            max-width: 500px;margin-bottom: 10%; margin-left: 30%;">
+      <div class="col-md-4 ">
+      <img src="{{product.prodImage}}"  style=" border-radius:20px ;" class="card-img-top" alt="..."height="250" width="250">
+    </div>
+    <div class="col-md-8">
+    <div class="card-body" class="floatr" style="margin-top: 25px;">
+        <h3 class="card-title"><p>{{product.prodName}}</p></h3>
+        <p class="card-text">{{product.prodCategory}}</p>
+        <p class="card-text">{{product.prodPrice}}</p>
+        <p class="card-text">{{product.prodDescription}} </p>
+        <br>
+        <button class="btn btn-primary" (click)="back()">Back</button>
+    </div >
+  </div>
+    </div>
+  </body> -->
+
+  <div class="card mb-3" style="max-width: 800px; max-height:400px; margin-left: 20%;margin-top: 10%;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{product.prodImage}}"  style=" border-radius:20px ;" class="card-img-top" alt="..."height="320" width="400">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body" style=" margin-top: 10%; margin-left: 35%; text-align: left; ">
+          <h2 class="card-title"><p>{{product.prodName}}</p></h2>
+          <p class="card-text">Category : {{product.prodCategory}}</p>
+          <p class="card-text">Price : {{product.prodprice}} Rs</p>
+          <p class="card-text">Description :{{product.prodDescription}} </p>
+          <p class="card-text">Available Stock :{{product.prodQuantity}} </p>
+          <br> 
+          <button class="btn btn-primary" (click)="addtocart(product.prodId)" style="margin-right: 20px; background-color: rgb(255, 142, 43); ">Add to cart </button>
+          <button class="btn btn-primary" (click)="back()">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>

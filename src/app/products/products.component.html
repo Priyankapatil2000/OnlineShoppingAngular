@@ -1,0 +1,23 @@
+<body>
+  <div >
+    <br>
+    <div class="row" style="margin-bottom: 10px;">
+        <br>
+        
+      <div class="col-md-4" *ngFor='let p of productArr' >
+        <div class="card" style=" max-height:400px;
+          max-width: 500px;margin-bottom: 20%; margin-left: 10%;">
+          <img class="card-img-top" style="border-radius:20px ;" src="{{p.prodImage}}" alt="Card image cap" height="250" width="250">
+          <div class="card-body"style=" text-align: left; margin-left: 20%; margin-top:10px;" >
+            <h2 class="card-title" >{{p.prodName}}</h2>
+            <p class="card-text">Price :{{p.prodprice}} Rs</p>
+            <!-- <p class="card-text">Price :{{p.prod}}</p> -->
+             
+            <button class="btn btn-primary" (click)="displayProductDetails(p.prodId)" style="margin-left: 20%; background-color:rgb(72, 201, 130); ">More details</button>
+          </div>
+        </div>
+      </div><br><br>
+    </div>
+  </div>
+
+</body>

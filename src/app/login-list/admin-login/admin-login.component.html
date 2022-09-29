@@ -1,0 +1,20 @@
+<div fxLayoutAlign="center center"   fxFlexFill class="main-div">
+    <mat-card fxFlex="30">
+      <mat-toolbar fxLayoutAlign="center" color="primary">Admin Login</mat-toolbar>
+      <form [formGroup]="AdminloginForm" fxLayoutAlign="stretch" fxLayout="column" class="login-form"
+        (ngSubmit)="formSubmit(AdminloginForm.value)">
+        <mat-form-field>
+          <input  [(ngModel)]="adminobj.username" matInput placeholder="Enter Username" id="Username" formControlName="user">
+          <span *ngIf="Username && Username.invalid && Username.touched"></span>
+        </mat-form-field>
+  
+        <mat-form-field>
+          <input  [(ngModel)]="adminobj.password" formControlName="pass" matInput placeholder="Enter Password" type="password" id="Pass">
+          <span *ngIf="Password && Password.invalid && Password.touched"></span>
+        </mat-form-field>
+        <button mat-raised-button type="submit" color="primary"  (click)="verifyadmin()">Login</button>
+        <h5 style="padding-left:170px"><a href="">Forgot
+            Password?</a></h5>
+      </form>
+    </mat-card>
+  </div>

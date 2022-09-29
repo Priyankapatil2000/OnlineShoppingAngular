@@ -1,0 +1,33 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+  <mat-card fxFlex="40">
+    <mat-toolbar  class="toolbar" fxLayoutAlign="center"  color="primary">Retailer Sign Up</mat-toolbar>
+    <form [formGroup]="signupRetailerForm" fxLayoutAlign="stretch" fxLayout="column" class="login-form">  
+  
+      <mat-form-field>
+          <input matInput placeholder="Username" type="text"  id="Username" formControlName="Username">
+      </mat-form-field>
+      <h5  style="color: red;" *ngIf="Username && Username.invalid && Username.touched">Username required*</h5>  
+
+        <mat-form-field>
+          <input matInput placeholder="Password" type="password" id="Password" formControlName="Password">
+        </mat-form-field>
+        <h5  style="color: red;" *ngIf="Password && Password.invalid && Password.touched">Password required*</h5>  
+        
+        <mat-form-field>
+          <input matInput placeholder="Name" type="text"  id="name" formControlName="name">
+      </mat-form-field>
+      <h5  style="color: red;" *ngIf="name && name.invalid && name.touched">Name required*</h5>
+      <mat-form-field>
+        <input matInput placeholder="Address" type="text"  id="address" formControlName="address">
+    </mat-form-field>
+    
+    <mat-form-field>
+      <input matInput placeholder="Phone" type="number"  id="phone" formControlName="phone">
+  </mat-form-field>
+  <h5  style="color: red;" *ngIf="phone && phone.invalid && phone.touched">Phone required*</h5>
+      <button  style="width:100px;" mat-raised- type="submit" mat-raised-button color="primary" routerLink="/retailer-login">Register</button><br>
+      <button routerLink="/app-retailer-login" routerLinkActive="active" mat-raised- type="submit" color="primary" mat-raised-button color="primary" >Already have an account?Login</button>
+
+    </form>
+  </mat-card>
+</div>

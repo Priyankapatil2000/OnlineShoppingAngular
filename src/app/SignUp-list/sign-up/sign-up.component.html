@@ -1,0 +1,40 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="40">
+      <mat-toolbar  class="toolbar" fxLayoutAlign="center"  color="primary">Customer Sign Up</mat-toolbar>
+      <form [formGroup]="signupForm" fxLayoutAlign="stretch" fxLayout="column" class="login-form">  
+    
+        <mat-form-field>
+            <input matInput placeholder="Username" type="text"  id="Username" formControlName="Username">
+        </mat-form-field>
+        <h5  style="color: red;" *ngIf="Username && Username.invalid && Username.touched">Username required*</h5>  
+
+          <mat-form-field>
+            <input matInput placeholder="Password" type="password" id="Password" formControlName="Password">
+          </mat-form-field>
+          <h5  style="color: red;" *ngIf="Password && Password.invalid && Password.touched">Password required*</h5>   
+
+
+        <mat-form-field>
+          <input  matInput placeholder="First Name" type="text" id="Firstname" formControlName="Firstname">
+        </mat-form-field>
+        <h5  style="color: red;" *ngIf="Firstname && Firstname.invalid && Firstname.touched">Firstname required*</h5>  
+
+        <mat-form-field>
+            <input matInput placeholder="Last Name " type="text" id="Lastname" formControlName="Lastname">
+          </mat-form-field>
+          <h5  style="color: red;" *ngIf="Lastname && Lastname.invalid && Lastname.touched">Lastname required*</h5>  
+
+          
+          <mat-form-field>
+            <input matInput placeholder="Mobile" type="number" id="Mobile" formControlName="Mobile">
+          </mat-form-field>
+          <h5  style="color: red;" *ngIf="Mobile && Mobile.invalid && Mobile.touched">Enter valid Mobile-no*</h5>    
+          <mat-form-field>
+            <input matInput placeholder="Address "  type="text" id="Address" formControlName="Address">
+          </mat-form-field>
+
+        <button  style="width:100px;" mat-raised- type="submit" mat-raised-button color="primary" >Register</button><br>
+        <button routerLink="/login" routerLinkActive="active" mat-raised- type="submit" color="primary" mat-raised-button color="primary" >Already have an account?Login</button>
+      </form>
+    </mat-card>
+  </div>
